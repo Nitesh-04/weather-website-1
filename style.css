@@ -1,0 +1,108 @@
+
+.cont 
+{
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 0%;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1 
+{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 15px;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  background-color: lightblue;
+
+}
+
+form 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+label 
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-block-start: 2.5%;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  background-color: lightblue;
+  
+}
+
+input 
+{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: black;
+  margin-top: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+button 
+{
+  font-size: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: blue;
+}
+
+#the_weather {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.bg-video
+{
+  position: absolute;
+  right : 0;
+  bottom :0;
+  z-index: -1;
+  backdrop-filter: blur(100px);
+  
+}
+
+@media (min-aspect-ratio : 16/9)
+{
+  .bg-video
+  {
+    width :100%;
+    height : auto;
+    backdrop-filter: blur(100px);
+  }
+}
+
+
+@media (max-aspect-ratio : 16/9)
+{
+  .bg-video
+  {
+    width :auto;
+    height : 100%;
+    backdrop-filter: blur(100px);
+  }
+}
+
+

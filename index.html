@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8" />
+    <title>WeatherPro.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <div class="cont">
+      <video autoplay loop muted plays-inline class = "bg-video">
+        <source src = "Clouds_1_1_preview.mp4" type ="video/mp4">
+      </video>
+      <h1>WEATHER PRO</h1>
+      <form id="locate-form">
+        <label for="location">Enter location :</label>
+        <input type="text" id="location" name="location" required/>
+        <button type="submit">Search</button>
+      </form>
+      <div id="the_weather"></div>
+    </div>
+    
+    <script src="weather.js"></script>
+  
+          
+  </body>
+</html>
